@@ -12,6 +12,20 @@
 </head>
 
 <body>
+
+    <div class="Barra">
+        <div class="B1">
+            <img src="C:\Project01\Imagenes\Bn1.png" alt="Icono de mapa" height="60px" width="60px">
+        </div>
+        <div class="B2">
+            <p>Beneficios - Conocenos - Reseñas - APP - Soporte</p>
+        </div>
+        <div class="B3">
+            <p>+51 994 443 212   -   navitac@empresa.com  -  ES
+            </p>
+        </div>
+
+    </div>
     
     <div class="SecInicio">
         <div class="textoInicio">
@@ -60,8 +74,7 @@
                 </td>
             </tr>
         </table>
-    </div>    
-    
+    </div>        
   
     
     <div class="Beneficios">
@@ -86,6 +99,13 @@
                 la información que nos proporciones.</p>
         </div>
 
+    </div>
+
+    <div class="VideoAbtUs">
+        <h1>Conócenos</h1>
+        <video width="600" height="400" controls>
+            <source src="C:\Project01\Imagenes\Blue Orange Minimalist Startup Business Intro Youtube Video (1).mp4"
+        </video>
     </div>
 
     <div class="resenia">
@@ -140,16 +160,69 @@
         <input type="button" value=">" onclick="Res2()" class="botonCarousel">
     </div>
 
-    <div class="Soporte">
-        <table border="0">
-            <tr>
-                <td><h1>¿Necesitas Soporte?</h1></td>
-                <td><input type="button" value="Abrir Chat" class="botonSoporte" >
-                </td>
-            </tr>
-        </table>
-        
-    </div>   
+    <div class="app">
+        <h1> Descarga nuestra app</h1>
+        <div class="app1">
+            <a href="https://www.apple.com/la/app-store/" target="_blank">
+            <img src="C:\Project01\Imagenes\AppStore.png" alt="Icono de appstore" height="200px" width="200px">
+        </a>
+            <p>Para dispositivos iOS:</p>
+            <p>Haz click en la imagen para descargar nuestra aplicacion
+                en iphones y macbooks.</p>
+        </div>
+        <div class="app2">
+        <a href="https://play.google.com/store/games?hl=es_PE&gl=US&pli=1" target="_blank">
+            <img src="C:\Project01\Imagenes\GooglePlay.png" alt="Icono de GooglePlay" height="200px" width="200px">
+        </a>
+            <p>Para dispositivos Android:</p>
+            <p>Haz click en la imagen para descargar nuestra aplicacion
+                en celulares o laptops android.</p>
+        </div>
+
+    </div>
+
+    
+<div class="Soporte">
+    <table border="0">
+        <tr>
+            <td><h1>¿Necesitas Soporte?</h1></td>
+            <td>
+                <input type="button" value="Enviar Mensaje" class="botonSoporte" onclick="toggleChatbox()">
+                <div id="chatbox">
+                    <div id="mensaje"></div>
+                    <input type="text" id="mensajeInput" placeholder="Escribe tu mensaje">
+                    <button onclick="enviarMensaje()">Enviar</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="Final">
+    <div class="F1">
+        <img src="C:\Project01\Imagenes\Bn1.png" alt="Icono" height="60px" width="60px">
+        <p>Nuestro startup se preocupa por tener un mundo donde 
+            todos tengan las mismas facilidades de movilizarse 
+            por su propia cuenta.</p>
+        <p>©  2021 id Studio. All Rights Reserved.</p>
+    </div>
+    <div class="F2">
+        <p>NAVIGATION</p>
+        <p>About</p>
+        <p>Beneficios</p>
+        <p>Conocenos</p>
+        <p>Reseñas</p>
+        <p>App</p>
+        <p>Soporte</p>
+    </div>
+    <div class="F3">
+        <p>CONTACTS</p>
+        <p>3517 W. Gray St. Utica, Lima 57867</p>
+        <p>PHONES</p>
+        <p>(808) 555-0111</p>
+    </div>
+
+</div>  
   
     
 </body> 
