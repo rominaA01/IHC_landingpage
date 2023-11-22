@@ -1,6 +1,6 @@
 
 h1{
-    color:black;
+    
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
@@ -23,10 +23,27 @@ h2{
         font-size: 15px;
     }
 } 
+
+.Barra {
+    color: black;
+    width: 100% - 100px ;
+    height: 80px;
+    background-color:rgba(191, 191, 191, 0.751);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.B1, .B2, .B3 {
+    float: left; /* Coloca los elementos en línea uno al lado del otro */
+    width: calc(33.33% ); /* Calcula el ancho del 33.33% (el -20px compensa el margen) */
+}
+
 .SecInicio {
     width: auto;
     height: 600px;
-    background-color: rgb(227, 231, 231);
+    background-color:white;
     padding-left: 90px;
     display: flex;
     
@@ -92,7 +109,7 @@ h2{
     color: white;
     width: 100% - 90px;
     height: 200px;
-    background-color: rgb(92, 101, 194);
+    background-color: rgba(41, 94, 252, 0.804);
     font-size: 30px;
     font-weight: 500;
     padding-bottom: 40px;
@@ -106,6 +123,20 @@ h2{
     font-size: 50px;
     font-weight: bold;
     padding-right: 50px;
+}
+
+.VideoAbtUs {
+    color: white;
+    width: 100% - 90px;
+    height: 600px;
+    background-color: rgba(41, 94, 252, 0.804);
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    padding-top: 30px ;
+    text-align: center;
+    
+    
 }
 
 .Beneficios {
@@ -204,6 +235,30 @@ h2{
     padding-bottom: 20px;
 }
 
+.app {
+    color: white;
+    width: 100% - 100px ;
+    height: 500px;
+    background-color:rgba(41, 94, 252, 0.804);
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 72px;
+    padding-top: 72px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    
+}
+
+.app1, .app2 {
+    margin: 10px; /* Espacio entre elementos */
+    padding-top: 20px;
+    font-size: 25px;
+    padding-bottom: 80px;
+    float: left; /* Coloca los elementos en línea uno al lado del otro */
+    width: calc(50% - 20px); /* Calcula el ancho del 33.33% (el -20px compensa el margen) */
+}
+
 .Soporte{
     width: auto;
     height: 170px;
@@ -212,7 +267,33 @@ h2{
     padding-left: 155px;
    
 }
-
+.chatbox {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    max-width: 400px;
+    overflow: auto;
+}
+.Final {
+    color: black;
+    width: 100% - 100px ;
+    height: 400px;
+    background-color:rgb(161, 161, 161);
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    
+}
+.F1, .F2, .F3 {
+    margin: 10px; /* Espacio entre elementos */
+    padding-top: 30px;
+    padding-bottom: 80px;
+    float: left; /* Coloca los elementos en línea uno al lado del otro */
+    width: calc(33.33% - 20px); /* Calcula el ancho del 33.33% (el -20px compensa el margen) */
+}
 .Soporte td:first-child {
     padding-right: 480px;
 }
